@@ -14,8 +14,8 @@ export default function Navbar() {
   return (
     <>
         <nav className='lg:flexCenter flexBetween max-container px-12 z-30 py-2 shadow-xl bg-white rounded-full ring-1 ring-slate-100 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]'>
-          <Link href={'/'} className='bold-32 text-transparent'>
-            <span className='logo-image '>PAKISTAN.</span>
+          <Link href={'/'} className=''>
+            <span className='logo-image bold-32 text-transparent'>PAKISTAN.</span> 
           </Link>
 
           {/* Desktop */}

@@ -26,11 +26,10 @@ export default function Hero() {
         </p>
         <div className='mt-8'>
           <Button
-            type='button'
-            title='Travel Plan'
-            icon='send-plane.svg'
-            variant='btn_white_rounded'
-          />
+           type='button'
+           title='Travel Plan'
+           icon='send-plane.svg'
+           variant='btn_white_rounded'/>
         </div>
         <h4 className='text-white my-4 bold-32'>Explore the key points</h4>
         <ul className='flex flex-wrap gap-4'>
