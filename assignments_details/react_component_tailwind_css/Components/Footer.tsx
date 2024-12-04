@@ -56,8 +56,8 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className='flex justify-center items-center max-container'>
-              <h4 className='bold-22 hover:text-green-50'>&#169; Pakistan Travel | 2024</h4>
+            <div className='flex justify-center items-center max-container '>
+              <h4 className='bold-22 hover:text-green-50 text-center'>&#169; Pakistan Travel | 2024</h4>
             </div>
             
           </div>
