@@ -10,14 +10,18 @@ export default function Features() {
 
   // For Slider Arrows
 
-  const NextArrow = (props:any) => {
+  interface ArrowProps {
+    onClick: () => void;
+  }
+
+  const NextArrow = (props:ArrowProps) => {
     const {onClick} = props;
     return(
       <div onClick={onClick} className='text-2xl bg-white p-3 inline-block rounded-full shadow-md absolute top-1/2 right-[-2%] hover:bg-slate-10 z-10'><RiArrowRightSLine/></div>
     )
   }
   
-  const PrevArrow = (props:any) => {
+  const PrevArrow = (props:ArrowProps) => {
     const {onClick} = props;
     return(
       <div onClick={onClick} className='text-2xl bg-white p-3 inline-block rounded-full shadow-md absolute top-1/2 left-[-2%] hover:bg-slate-10 z-10'><RiArrowLeftSLine/></div>
@@ -59,8 +63,8 @@ export default function Features() {
     slidesToScroll: 1,
     arrows:true,
     autoplay: true,
-    nextArrow:<NextArrow/>,
-    prevArrow:<PrevArrow/>,
+    nextArrow:<NextArrow onClick={()=>{}}/>,
+    prevArrow:<PrevArrow onClick={()=>{}}/>,
     responsive:[
       {
         breakpoint:1980,
