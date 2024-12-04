@@ -15,7 +15,7 @@ export default function Navbar() {
   // }
   return (
     <>
-        <nav className='flex items-center justify-between lg:flex-row flex-col mx-auto max-w-[1440px] px-[40px] z-30 py-2 shadow-xl bg-white rounded-full ring-1 ring-slate-100 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]  '>
+        <nav className="flex items-center justify-between lg:flex-row flex-col mx-auto max-w-[1440px] px-[40px] z-30 py-2 shadow-xl bg-white rounded-full fixed w-[95%] left-[50%] top-1 translate-x-[-50%]  ">
           <div>
             <Link href={'/'} className='hover:text-green-50 hover:scale-110 duration-500 transition-all text-[36px] font-bold leading-[120%]'>
               PAKISTAN.
