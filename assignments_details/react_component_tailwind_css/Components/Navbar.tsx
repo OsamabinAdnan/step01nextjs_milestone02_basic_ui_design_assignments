@@ -1,8 +1,6 @@
 'use client'
 import Link from 'next/link'
-import React, { useState } from 'react'
-import { NAV_LINKS } from '../constant'
-import Image from 'next/image'
+import React from 'react'
 import { FaUser } from 'react-icons/fa'
 import { RiHome5Fill } from 'react-icons/ri'
 import { FaCircleExclamation } from 'react-icons/fa6'
@@ -11,19 +9,19 @@ import { GoGoal } from 'react-icons/go'
 
 
 export default function Navbar() {
-  const [menuOpened, SetmenuOpened] =useState(false)
-  const toggleMenu =() => {
-    SetmenuOpened(!menuOpened)
-  }
+  // const [menuOpened, SetmenuOpened] =useState(false)
+  // const toggleMenu =() => {
+  //   SetmenuOpened(!menuOpened)
+  // }
   return (
     <>
-        <nav className='flex items-center justify-between mx-auto max-w-[1440px] px-[40px] z-30 py-2 shadow-xl bg-white rounded-full ring-1 ring-slate-100 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]  '>
+        <nav className='flex items-center justify-between lg:flex-row flex-col mx-auto max-w-[1440px] px-[40px] z-30 py-2 shadow-xl bg-white rounded-full ring-1 ring-slate-100 fixed w-[95%] left-[50%] top-1 translate-x-[-50%]  '>
           <div>
-            <Link href={'/'} className=''>
-              <span className=" bg-no-repeat bg-cover bg-clip-text logo-image text-[36px] font-bold leading-[120%] text-transparent">PAKISTAN.</span> 
+            <Link href={'/'} className='hover:text-green-50 hover:scale-110 duration-500 transition-all text-[36px] font-bold leading-[120%]'>
+              PAKISTAN.
             </Link>
           </div>
-          <div className='lg:flex justify-between items-center gap-[24px] hidden group'>
+          <div className='flex sm:flex-row flex-col justify-between items-center gap-[24px]'>
             
               <Link href={'/'} className='flex justify-center items-center gap-2 hover:scale-110 transition-all duration-500'> 
               <span className='w-[20px] h-[20px]'><RiHome5Fill />  </span>Home</Link>
@@ -66,7 +64,7 @@ export default function Navbar() {
           </ul> */}
 
           {/* Mobile */}
-          { !menuOpened ?  
+          {/* { !menuOpened ?  
               (<Image
               src='menu.svg'
               alt='menu-icon'
@@ -108,7 +106,7 @@ export default function Navbar() {
                 </Link>
               ))
             }
-            </ul>
+            </ul> */}
         </nav>
     </>
     
