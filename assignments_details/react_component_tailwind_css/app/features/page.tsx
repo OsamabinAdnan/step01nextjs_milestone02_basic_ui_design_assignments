@@ -50,7 +50,7 @@ export default function Features() {
   }
 
   // For Slider
-  let settings = {
+  const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
