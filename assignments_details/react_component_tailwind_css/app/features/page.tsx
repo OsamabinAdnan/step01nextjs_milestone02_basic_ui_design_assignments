@@ -9,14 +9,14 @@ import { RiArrowLeftSLine, RiArrowRightSLine, RiSearchLine } from "react-icons/r
 export default function Features() {
 
   // For Slider Arrows
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
   const NextArrow = (props:any) => {
     const {onClick} = props;
     return(
       <div onClick={onClick} className='text-2xl bg-white p-3 inline-block rounded-full shadow-md absolute top-1/2 right-[-2%] hover:bg-slate-10 z-10'><RiArrowRightSLine/></div>
     )
   }
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  
   const PrevArrow = (props:any) => {
     const {onClick} = props;
     return(
