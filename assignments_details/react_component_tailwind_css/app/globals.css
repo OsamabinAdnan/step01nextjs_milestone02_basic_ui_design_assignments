@@ -128,12 +128,9 @@ body {
 }
 .logo-image {
   background: url('/logoflag.jpg');
-  background-position: unset;
-  background-repeat: no-repeat;
   background-size: cover;
   background-clip: text; /* Clips the image to the text */
   -webkit-background-clip: text; /* For WebKit browsers */
-  -webkit-text-fill-color: transparent; /* Ensures transparency for WebKit browsers */
 }
 .bg-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/hero.jpg') ;
