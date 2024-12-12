@@ -18,7 +18,7 @@ export default function Hero() {
     )
   }
   return (
-    <section className=' bg-hero max-h-full h-[100vh] w-[100vw]  '>
+    <section className='relative bg-hero max-h-full h-[100vh] w-[100vw]  '>
       <div className='mx-auto max-w-[1440px] padding-container  relative top-28 sm:top-1/3 z-10  '>
         <h1 className='bold-44 sm:bold-64 text-white capitalize max-w-[36rem]'>Explore Pakistan With Us</h1>
         <p className='regular-20 mt-6 text-white lg:w-1/2'>
