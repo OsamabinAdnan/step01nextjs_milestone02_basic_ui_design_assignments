@@ -11,15 +11,15 @@ type CategoryItems = {
 export default function Hero() {
   const CategoryItems = ({title, icon}:CategoryItems) => {
     return (
-      <Link href={'/'} className='bg-white flexCenter gap-2 px-4 py-2 cursor-pointer hover:-translate-y-[4px] transition-all duration-500 rounded-md'>
-        <Image src={icon} alt='icons' width={22} height={22} className='regular-28'/>
+      <Link href={'/'} className='bg-white flex items-center justify-center gap-2 px-4 py-2 cursor-pointer hover:-translate-y-[4px] transition-all duration-500 rounded-md'>
+        <Image src={icon} alt='icons' width={22} height={22} className='text-[28px] font-[400]'/>
         <span className='capitalize regular-16'>{title}</span>
       </Link>
     )
   }
   return (
-    <section className='relative bg-hero h-[100vh] w-full  pb-12'>
-      <div className='max-container padding-container  relative top-28 sm:top-1/3 z-10  '>
+    <section className=' bg-hero max-h-full h-[100vh] w-[100vw]  '>
+      <div className='mx-auto max-w-[1440px] padding-container  relative top-28 sm:top-1/3 z-10  '>
         <h1 className='bold-44 sm:bold-64 text-white capitalize max-w-[36rem]'>Explore Pakistan With Us</h1>
         <p className='regular-20 mt-6 text-white lg:w-1/2'>
         Discover the breathtaking beauty, rich culture, and hidden gems of Pakistan like never before. From majestic mountains to vibrant cities, let us guide you on an unforgettable journey through this incredible land.

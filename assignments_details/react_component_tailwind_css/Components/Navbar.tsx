@@ -62,7 +62,7 @@ export default function Navbar() {
   ]
 
   return (
-    <div className="relative">
+    <div className="cursor-all-scroll">
       <nav className="mx-auto max-w-[1440px] py-2 bg-white top-1 relative">
         <div className="flex justify-between items-center px-4">
           {/* Logo */}
