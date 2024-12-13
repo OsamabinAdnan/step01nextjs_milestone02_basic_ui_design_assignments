@@ -18,7 +18,7 @@ export default function Packages() {
                     <div className='overflow-hidden relative max-w-[400px] rounded-xl bg-white  '>
                         <Image src='/hsfm.png' alt='image' height={400} width={600}/>
                         <div className='flex p-2 justify-between items-center gap-2'>
-                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Northern Gems: Hunza, Skardu, and Fairy Meadows</h1>
+                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Northern Gems&#58; Hunza, Skardu, and Fairy Meadows</h1>
                             <p className='sm:text-[18px] text-[12px] font-semibold text-green-700'>$1,200 per person</p>
                         </div>
                         <div className='p-2'>
@@ -39,11 +39,11 @@ export default function Packages() {
                     <div className='overflow-hidden relative max-w-[400px] rounded-xl bg-white  '>
                         <Image src='/punjab.png' alt='image' height={400} width={600} className=''/>
                         <div className='flex p-2 justify-between items-center gap-2'>
-                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Majestic Punjab: Lahore, Multan, and Islamabad</h1>
+                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Majestic Punjab&#58; Lahore, Multan, and Islamabad</h1>
                             <p className='sm:text-[18px] text-[12px] text-green-700'>$850 per person</p>
                         </div>
                         <div className='p-2'>
-                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Dive into the rich history and culture of Punjab with a visit to Lahore's Badshahi Mosque, Multan's Sufi shrines, and the modern capital city of Islamabad. Enjoy the vibrant local bazaars, and historical architecture.</p>
+                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Dive into the rich history and culture of Punjab with a visit to Lahore&apos;s Badshahi Mosque, Multan&apos;s Sufi shrines, and the modern capital city of Islamabad. Enjoy the vibrant local bazaars, and historical architecture.</p>
                         </div>
                         <div className='flex justify-between items-center p-2 border-t-[1px] border-gray-300'>
                             <div className='flex justify-center items-center gap-2'>
@@ -60,11 +60,11 @@ export default function Packages() {
                     <div className='overflow-hidden relative max-w-[400px] rounded-xl bg-white  '>
                         <Image src='/baloch.png' alt='image' height={400} width={600} className=''/>
                         <div className='flex p-2 justify-between items-center gap-2'>
-                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Coastal Bliss: Gwadar, Hingol National Park, Kund Malir</h1>
+                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Coastal Bliss&#58; Gwadar, Hingol National Park, Kund Malir</h1>
                             <p className='sm:text-[18px] text-[12px] font-semibold text-green-700'>$700 per person</p>
                         </div>
                         <div className='p-2'>
-                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Experience the untouched beauty of Pakistan's southern coastline. Marvel at the pristine beaches of Kund Malir, the Hingol National Park's majestic rock formations, and the cultural charm of Gwadar.</p>
+                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Experience the untouched beauty of Pakistan&apos;s southern coastline. Marvel at the pristine beaches of Kund Malir, the Hingol National Park&apos;s majestic rock formations, and the cultural charm of Gwadar.</p>
                         </div>
                         <div className='flex justify-between items-center p-2 border-t-[1px] border-gray-300'>
                             <div className='flex justify-center items-center gap-2'>
@@ -81,11 +81,11 @@ export default function Packages() {
                     <div className='overflow-hidden relative max-w-[400px] rounded-xl bg-white  '>
                         <Image src='/malamjabba.png' alt='image' height={400} width={600} className=''/>
                         <div className='flex p-2 justify-between items-center gap-2'>
-                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Swat Retreat: Mingora, Malam Jabba, and Kalam</h1>
+                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Swat Retreat&#58; Mingora, Malam Jabba, and Kalam</h1>
                             <p className='sm:text-[18px] text-[12px] font-semibold text-green-700'>$650 per person</p>
                         </div>
                         <div className='p-2'>
-                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Enjoy a peaceful escape to Swat Valley, known as the `Switzerland of the East`. This package includes skiing at Malam Jabba, lush green landscapes in Kalam, and cultural exploration in Mingora.</p>
+                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Enjoy a peaceful escape to Swat Valley, known as the &apos;Switzerland of the East&apos;. This package includes skiing at Malam Jabba, lush green landscapes in Kalam, and cultural exploration in Mingora.</p>
                         </div>
                         <div className='flex justify-between items-center p-2 border-t-[1px] border-gray-300'>
                             <div className='flex justify-center items-center gap-2'>
@@ -102,11 +102,11 @@ export default function Packages() {
                      <div className='overflow-hidden relative max-w-[400px] rounded-xl bg-white  '>
                         <Image src='/sindh.png' alt='image' height={400} width={600} className=''/>
                         <div className='flex p-2 justify-between items-center gap-2'>
-                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Sindh Splendor: Karachi, Hyderabad, and Mohenjo-Daro</h1>
+                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Sindh Splendor&#58; Karachi, Hyderabad, and Mohenjo-Daro</h1>
                             <p className='sm:text-[18px] text-[12px] font-semibold text-green-700'>$900 per person</p>
                         </div>
                         <div className='p-2'>
-                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Discover the vibrant culture of Sindh, from Karachi's bustling streets to the ancient ruins of Mohenjo-Daro. This journey is a perfect blend of history, art, and coastal beauty. What you are waiting for?</p>
+                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Discover the vibrant culture of Sindh, from Karachi&apos;s bustling streets to the ancient ruins of Mohenjo-Daro. This journey is a perfect blend of history, art, and coastal beauty. What you are waiting for?</p>
                         </div>
                         <div className='flex justify-between items-center p-2 border-t-[1px] border-gray-300'>
                             <div className='flex justify-center items-center gap-2'>
@@ -123,7 +123,7 @@ export default function Packages() {
                     <div className='overflow-hidden relative max-w-[400px] rounded-xl bg-white  '>
                         <Image src='/kashmir.png' alt='image' height={400} width={600} className=''/>
                         <div className='flex p-2 justify-between items-center gap-2'>
-                            <h1 className='sm:text-[18px] text-[12px]  font-bold'>Dreamy Kashmir: Neelum Valley, Muzaffarabad, Rawalakot</h1>
+                            <h1 className='sm:text-[18px] text-[12px]  font-bold'>Dreamy Kashmir&#58; Neelum Valley, Muzaffarabad, Rawalakot</h1>
                             <p className='sm:text-[18px] text-[12px]  font-semibold text-green-700'>$950 per person</p>
                         </div>
                         <div className='p-2'>
@@ -144,11 +144,11 @@ export default function Packages() {
                     <div className='overflow-hidden relative max-w-[400px] rounded-xl bg-white  '>
                         <Image src='/islamabad.png' alt='image' height={400} width={600} className=''/>
                         <div className='flex p-2 justify-between items-center gap-2'>
-                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Capital to Hills: Islamabad, Murree, Patriata</h1>
+                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Capital to Hills&#58; Islamabad, Murree, Patriata</h1>
                             <p className='sm:text-[18px] text-[12px] font-semibold text-green-700'>$500 per person</p>
                         </div>
                         <div className='p-2'>
-                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Explore the enchanting valleys of Kashmir, filled with lush greenery, clear rivers, and mesmerizing mountain views. Highlights include Toli Pir, Banjosa Lake, and cultural experiences in Muzaffarabad.</p>
+                            <p className='sm:text-[14px] text-[10px] font-medium text-gray-600'>Take a short & refreshing getaway to Pakistan&apos;s capital city & the nearby hill stations. Explore Islamabad&apos;s serene spots, Murree&apos;s charming weather, & Patriata&apos;s cable car rides.</p>
                         </div>
                         <div className='flex justify-between items-center p-2 border-t-[1px] border-gray-300'>
                             <div className='flex justify-center items-center gap-2'>
@@ -165,7 +165,7 @@ export default function Packages() {
                     <div className='overflow-hidden relative max-w-[400px] rounded-xl bg-white  '>
                         <Image src='/islamabad.png' alt='image' height={400} width={600} className=''/>
                         <div className='flex p-2 justify-between items-center gap-2'>
-                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Colorful Chitral: Kalash Valley and Beyond</h1>
+                            <h1 className='sm:text-[18px] text-[12px] font-bold'>Colorful Chitral&#58; Kalash Valley and Beyond</h1>
                             <p className='sm:text-[18px] text-[12px] font-semibold text-green-700'>$1100 per person</p>
                         </div>
                         <div className='p-2'>

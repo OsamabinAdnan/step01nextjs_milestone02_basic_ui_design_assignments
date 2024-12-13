@@ -13,8 +13,8 @@ export default function About() {
                     {/* 1st col */}
                     <div className='flex items-start justify-center flex-col gap-5 flex-1'>
                         <h1 className='lg:text-[55px] text-[35px] font-bold'>Join Us In Exploring Pakistan</h1>
-                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Join us in discovering the heart and soul of Pakistan. Let's create memories as we explore its breathtaking beauty and cultural richness.</p>
-                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Step into the adventure of a lifetime as we take you across Pakistan's iconic landmarks and hidden gems. Experience the charm of this extraordinary land with us!</p>
+                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Join us in discovering the heart and soul of Pakistan. Let&apos;s create memories as we explore its breathtaking beauty and cultural richness.</p>
+                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Step into the adventure of a lifetime as we take you across Pakistan&apos;s iconic landmarks and hidden gems. Experience the charm of this extraordinary land with us!</p>
 
                         <div className='flex items-center justify-start flex-wrap gap-2'>
                             <div className='flex justify-center items-center gap-2'>
@@ -60,9 +60,9 @@ export default function About() {
                     </div>
                     {/* 2nd col */}
                     <div className='flex items-start justify-center flex-col gap-5 flex-1'>
-                        <h1 className='lg:text-[55px] text-[35px] font-bold'>Your Gateway to Pakistan's Wonders</h1>
+                        <h1 className='lg:text-[55px] text-[35px] font-bold'>Your Gateway to Pakistan&apos;s Wonders</h1>
                         <p className='text-gray-500 lg:text-[28px] text-[16px]'>Pakistan is calling! Discover its vibrant history, stunning scenery, and warm hospitality with us as your trusted guide.</p>
-                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Adventure, culture, and serenity—Pakistan has it all. Join us in uncovering the magic of this extraordinary country.</p>
+                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Adventure, culture, and serenity &#45; Pakistan has it all. Join us in uncovering the magic of this extraordinary country.</p>
 
                         <div className='flex items-center justify-start flex-wrap gap-2'>
                             <div className='flex justify-center items-center gap-2'>
@@ -71,7 +71,7 @@ export default function About() {
                             </div>
                             <div className='flex justify-center items-center gap-2'>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>World-Class Hospitality</p>
+                                <p className='lg:text-[22px] text-[16px]'>World Class Hospitality</p>
                             </div>
                             <div className='flex justify-center items-center gap-2'>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
