@@ -7,79 +7,79 @@ export default function About() {
   return (
     <>
         <section className={styles.section}>
-            <div className='max-w-[1440px] mx-auto my-20 '>
+            <div className={styles.mainDiv}>
                 {/* 1st Section */}
-                <div className='flex justify-center items-center gap-8 md:flex-row flex-col md:m-0 m-2 '>
+                <div className={styles.firstSecDiv}>
                     {/* 1st col */}
-                    <div className='flex items-start justify-center flex-col gap-5 flex-1'>
-                        <h1 className='lg:text-[55px] text-[35px] font-bold'>Join Us In Exploring Pakistan</h1>
-                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Join us in discovering the heart and soul of Pakistan. Let&apos;s create memories as we explore its breathtaking beauty and cultural richness.</p>
-                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Step into the adventure of a lifetime as we take you across Pakistan&apos;s iconic landmarks and hidden gems. Experience the charm of this extraordinary land with us!</p>
+                    <div className={styles.firstColDiv}>
+                        <h1 className={styles.h1ColDiv}>Join Us In Exploring Pakistan</h1>
+                        <p className={styles.pColDiv}>Join us in discovering the heart and soul of Pakistan. Let&apos;s create memories as we explore its breathtaking beauty and cultural richness.</p>
+                        <p className={styles.pColDiv}>Step into the adventure of a lifetime as we take you across Pakistan&apos;s iconic landmarks and hidden gems. Experience the charm of this extraordinary land with us!</p>
 
-                        <div className='flex items-center justify-start flex-wrap gap-2'>
-                            <div className='flex justify-center items-center gap-2'>
+                        <div className={styles.featuresDiv}>
+                            <div className={styles.featuresDiv2}>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>Comfortable Journey</p>
+                                <p className={styles.pfeaturesDiv2}>Comfortable Journey</p>
                             </div>
-                            <div className='flex justify-center items-center gap-2'>
+                            <div className={styles.featuresDiv2}>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>Luxuries Hotel</p>
+                                <p className={styles.pfeaturesDiv2}>Luxuries Hotel</p>
                             </div>
-                            <div className='flex justify-center items-center gap-2'>
+                            <div className={styles.featuresDiv2}>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>Travel Guide</p>
+                                <p className={styles.pfeaturesDiv2}>Travel Guide</p>
                             </div>
-                            <div className='flex justify-center items-center gap-2'>
+                            <div className={styles.featuresDiv2}>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>Popular Destination</p>
+                                <p className={styles.pfeaturesDiv2}>Popular Destination</p>
                             </div>
                         </div>
                     </div>
                     {/* 2nd col */}
-                    <div className='flex flex-1 md:gap-4 gap-1 '>
+                    <div className={styles.imagesDiv}>
                         <div>
-                            <Image src='/about1.jpg' alt='img' width={333} height={222} className='w-auto rounded-lg border border-gray-10 mb-12'/>
+                            <Image src='/about1.jpg' alt='img' width={333} height={222} className={styles.imageOne}/>
                         </div>
                         <div>
-                        <Image src='/about2.jpg' alt='img' width={333} height={222} className='w-auto rounded-lg border border-gray-10 mt-12'/>
+                        <Image src='/about2.jpg' alt='img' width={333} height={222} className={styles.imageTwo}/>
                         </div>
                     </div>
                 </div>
                 
                 {/* 2nd Section */}
-                <div className='flex justify-center items-center gap-8 md:flex-row flex-col md:mx-0 mx-2 my-20 '>
+                <div className={styles.secondSection}>
                     
                     {/* 1st col */}
-                    <div className='flex flex-1 md:gap-4 gap-1 '>
+                    <div className={styles.imagesDiv}>
                         <div>
-                            <Image src='/about3.jpg' alt='img' width={333} height={222} className='w-auto rounded-lg border border-gray-10 mb-12'/>
+                            <Image src='/about3.jpg' alt='img' width={333} height={222} className={styles.imageOne}/>
                         </div>
                         <div>
-                        <Image src='/about4.jpg' alt='img' width={333} height={222} className='w-auto rounded-lg border border-gray-10 mt-12'/>
+                        <Image src='/about4.jpg' alt='img' width={333} height={222} className={styles.imageTwo}/>
                         </div>
                     </div>
                     {/* 2nd col */}
-                    <div className='flex items-start justify-center flex-col gap-5 flex-1'>
-                        <h1 className='lg:text-[55px] text-[35px] font-bold'>Your Gateway to Pakistan&apos;s Wonders</h1>
-                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Pakistan is calling! Discover its vibrant history, stunning scenery, and warm hospitality with us as your trusted guide.</p>
-                        <p className='text-gray-500 lg:text-[28px] text-[16px]'>Adventure, culture, and serenity &#45; Pakistan has it all. Join us in uncovering the magic of this extraordinary country.</p>
+                    <div className={styles.firstColDiv}>
+                        <h1 className={styles.h1ColDiv}>Your Gateway to Pakistan&apos;s Wonders</h1>
+                        <p className={styles.pColDiv}>Pakistan is calling! Discover its vibrant history, stunning scenery, and warm hospitality with us as your trusted guide.</p>
+                        <p className={styles.pColDiv}>Adventure, culture, and serenity &#45; Pakistan has it all. Join us in uncovering the magic of this extraordinary country.</p>
 
-                        <div className='flex items-center justify-start flex-wrap gap-2'>
-                            <div className='flex justify-center items-center gap-2'>
+                        <div className={styles.featuresDiv}>
+                            <div className={styles.featuresDiv2}>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>Tailored Experiences</p>
+                                <p className={styles.pfeaturesDiv2}>Tailored Experiences</p>
                             </div>
-                            <div className='flex justify-center items-center gap-2'>
+                            <div className={styles.featuresDiv2}>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>World Class Hospitality</p>
+                                <p className={styles.pfeaturesDiv2}>World Class Hospitality</p>
                             </div>
-                            <div className='flex justify-center items-center gap-2'>
+                            <div className={styles.featuresDiv2}>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>Scenic Adventures</p>
+                                <p className={styles.pfeaturesDiv2}>Scenic Adventures</p>
                             </div>
-                            <div className='flex justify-center items-center gap-2'>
+                            <div className={styles.featuresDiv2}>
                                 <Image src='/checkbox.svg' alt='img' width={24} height={24}/>
-                                <p className='lg:text-[22px] text-[16px]'>Memorable Journeys</p>
+                                <p className={styles.pfeaturesDiv2}>Memorable Journeys</p>
                             </div>
                         </div>
                     </div>

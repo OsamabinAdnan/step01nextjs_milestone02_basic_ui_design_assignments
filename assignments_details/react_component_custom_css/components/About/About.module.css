@@ -6,5 +6,113 @@
 }
 .mainDiv {
     max-width: 1440px;
-    margin: 0px auto 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
+.firstSecDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.firstColDiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.25rem;
+    flex: 1;
+}
+
+.h1ColDiv {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+.pColDiv {
+    color: #6b7280; /* gray-500 */
+    font-size: 16px;
+}
+
+.featuresDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .featuresDiv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .pfeaturesDiv2 {
+    font-size: 16px;
+  }
+  
+  .imagesDiv {
+    display: flex;
+    flex: 1;
+    gap: 0.25rem;
+  }
+  .imageOne {
+    width: auto;
+    border-radius: 0.5rem; /* rounded-lg */
+    border: 1px solid #f3f4f6; /* gray-10 equivalent */
+    margin-bottom: 3rem; /* mb-12 */
+  }
+  .imageTwo {
+    width: auto;
+    border-radius: 0.5rem; /* rounded-lg */
+    border: 1px solid #f3f4f6; /* gray-10 equivalent */
+    margin-top: 3rem; /* mt-12 */
+  }
+
+  .secondSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+
+  @media (min-width: 1024px) {
+    .h1ColDiv {
+      font-size: 55px;
+    }
+    .pColDiv {
+        font-size: 28px;
+    }
+    .pfeaturesDiv2 {
+        font-size: 22px;
+      }
+  }
+
+
+@media (min-width: 768px) {
+    .firstSecDiv {
+      flex-direction: row;
+      margin: 0;
+    }
+    .imagesDiv {
+        gap: 1rem;
+    }
+    .secondSection {
+        flex-direction: row;
+        margin-left: 0;
+        margin-right: 0;
+      }
+  }
