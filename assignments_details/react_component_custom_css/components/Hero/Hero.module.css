@@ -1,5 +1,4 @@
 
-
 .bgImage {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url('/hero.jpg') ;
     background-position: center;
@@ -8,4 +7,90 @@
     width: 99vw;
     height: 100vh;
     
+}
+
+.mainDiv {
+    /* max-w-[1440px] mx-auto space-y-6  */
+    max-width: 1440px; /* Limits the maximum width */
+    margin-left: auto; /* Centers horizontally */
+    margin-right: auto;
+}
+.mainDiv > * + * {
+    margin-top: 1.5rem; /* Adds vertical spacing between child elements */
+}
+
+.innerDiv {
+    position: relative; /* Sets relative positioning */
+    top: 6rem;          /* Moves the element 6rem from the top */
+    max-width: 672px;   /* Limits the maximum width */
+    margin: 0.5rem;     /* Adds 0.5rem margin on all sides */
+}
+
+.innerDiv > * + * {
+    margin-top: 1.5rem; /* Adds vertical spacing between child elements */
+}
+
+.parent > * + * {
+    margin-top: 2rem;
+}
+
+.h1Div {
+    color: white;            /* text-white */
+    text-align: left;        /* text-left */
+    font-size: 35px;         /* text-[35px] (default for smaller screens) */
+    font-weight: bold;       /* font-bold */
+}
+
+.pDiv {
+    color: white;            /* text-white */
+    font-size: 16px; 
+}
+
+.btn {
+    text-align: left;              /* text-left */
+    background-color: white;       /* bg-white */
+    color: black;                  /* text-black */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #4ee247;     /* hover:bg-[#4ee247] */
+}
+.h1Div2 {
+    text-align: left;        /* text-left */
+    color: white;            /* text-white */
+    font-size: 25px;         /* text-[25px] (default for smaller screens) */
+}
+
+.btnDiv {
+    display: none;             /* hidden (default: element is not displayed) */
+}
+
+.btn2 {
+    background-color: white;       /* bg-white */
+    color: black;                  /* text-black */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+.btn2:hover {
+    background-color: #4ee247;     /* hover:bg-[#4ee247] */
+}
+
+@media (min-width: 768px) {  /* md:text-[55px] */
+    .h1Div {
+        font-size: 55px;     /* Adjusts font size for medium screens and above */
+    }
+    .pDiv {
+        font-size: 25px; 
+    }
+    .h1Div2 {
+        font-size: 45px;     
+    }
+    .btnDiv {
+        display: flex;         /* Flex container for medium screens and above */
+        justify-content: flex-start; /* justify-start: Align items to the start horizontally */
+        align-items: center;   /* items-center: Align items to the center vertically */
+        gap: 1rem;             /* gap-4: Spacing of 1rem between flex items */
+        flex-direction: row;   /* flex-row: Arrange flex items in a row */
+    }
 }
