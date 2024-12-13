@@ -1,32 +1,51 @@
-
-
-
-.bgVideo {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/video7.jpg') ;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 260px;
-    place-items: center; /* Centers content both horizontally and vertically */
-    border-radius: 16px; /* Rounds corners with 2xl radius (16px) */
-    position: relative; /* Sets the element to be positioned relative to its normal flow */
-    width: auto;
+.section {
+  width: 100%;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.mainDiv {
+  background-color: #f3f4f6;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+}
+.innerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.circleDiv {
+  position: absolute;
+  color: #ffffff;
+  height: 4rem;
+  width: 4rem;
+  background-color: #4ee247;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
-@media (min-width: 768px) { /* Tailwind's md breakpoint */
-    .bgVideo {
-      height: 400px; /* Increases height for medium screens and above */
-    }
-  }
-  
-  @media (min-width: 1280px) { /* Tailwind's xl breakpoint */
-    .bgVideo {
-      height: 500px; /* Increases height for extra-large screens and above */
-    }
-  }
+.absoluteDiv {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background-color: #ffffff;
+  border-radius: 9999px;
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
 
-
-.section {
-    max-width: 1440px;
-    margin: 40px auto 40px;
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }
