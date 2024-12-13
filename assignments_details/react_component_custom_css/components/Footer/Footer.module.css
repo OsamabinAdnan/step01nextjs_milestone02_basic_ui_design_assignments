@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+}
+
+.footerDiv {
+    /* w-full shadow-lg py-10 */
+    width: 100%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    padding: 2.5rem 0 2.5rem; /* 10 x 0.25rem */
+    border-top: 1px solid lightgray;
+    
+}
+.mainDiv {
+    /* max-w-[1440px] mx-auto */
+    max-width: 1440px;
+    margin: 0 auto 0;
+}
+.innerDiv {
+    /* flex flex-col gap-8 sm:ml-0 ml-2 */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* 8 x 0.25rem */
+    margin-left: 0.5rem; /* Default margin for `ml-2` */
+}
+/* Logo Div */
+.logoDiv {
+    /* transition-all duration-500 hover:text-[#4ee247] */
+    transition: all 0.5s;
+}
+.logoDiv:hover {
+    color: #4ee247;
+}
+.logo {
+    /* text-[35px] font-bold hover:scale-110 */
+    font-size: 35px; /* Sets the font size to 35px */
+    font-weight: bold; /* Makes the text bold */
+    transition: transform 0.2s; /* Adds a smooth scaling effect */
+}
+.linksDiv {
+    /* flex lg:flex-row flex-col justify-between items-start gap-4 */
+    display: flex;
+    flex-direction: column; /* Default to column for smaller screens */
+    justify-content: space-between; /* Distributes items with space between them */
+    align-items: flex-start; /* Aligns items to the start of the flex container */
+    gap: 1rem; /* Adds a gap of 1rem (16px) between flex items */
+}
+.colDiv {
+    /* flex flex-col gap-2 */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.h1ColDiv {
+    /* text-[25px] font-bold */
+    font-size: 25px;
+    font-weight: bold;
+}
+.linkColDiv {
+    /* text-[20px] font-medium */
+    font-size: 20px;
+    font-weight: 500;
+}
+.socialColDiv {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start (left) of the container */
+    align-items: center; /* Vertically centers items */
+    gap: 1rem; /* Adds a gap of 1rem (16px) between flex items */
+}
+.social:hover {
+    /* hover:text-[#4ee247] */
+    color: #4ee247;
+}
+.bottomLine {
+    /* flex items-center justify-center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+.bottomLine:hover {
+    color: #4ee247;
+}
+
+@media (min-width: 1024px) { /* Tailwind's lg breakpoint */
+    .linksDiv {
+      flex-direction: row; /* Changes to row for larger screens (lg) */
+    }
+}
+
+@media (min-width: 640px) { /* Tailwind's sm breakpoint */
+    .innerDiv {
+      margin-left: 0; /* Overrides margin for `sm:ml-0` */
+    }
+}

@@ -1,0 +1,122 @@
+body {
+    width: 100%;
+}
+.section {
+    width: 100%;
+}
+/* Main Div */
+.mainDiv {
+    max-width: 1440px;
+    margin: 0px auto 0px;
+}
+
+/* Inner Div */
+/* flex justify-between items-center mt-4  */
+.innerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 4px 16px;
+}
+
+@media (min-width:768px){
+    .innerDiv {
+     
+        margin: 16px 0px 16px;
+    }   
+}
+
+/* Logo */
+/* Logo Div */
+/* hover:scale-110 transition-all duration-500 hover:text-[#4ee247] */
+.logoDiv:hover {
+    scale: 1.1;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    color: #4ee247;
+}
+/* text-[35px] font-bold hover:scale-110 */
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+/* Links */
+/* lg:flex items-center justify-center gap-4 hidden */
+.navbarLinksMainDiv {
+    display: none;
+ 
+}
+
+/* flex items-center justify-center gap-2 hover:border-b-[2px] hover:border-[#4ee247] duration-500 transition-all hover:-translate-y-2 */
+.linksDiv {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+transition: all 0.5s;
+}
+.linksDiv:hover {
+    border-bottom: 2px solid #4ee247; 
+    transform: translateY(-0.5rem);
+}
+
+/* Button Div */
+/* sm:block hidden */
+
+.btnDiv {
+    display: none;
+}
+
+.btn {
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: #4ee247; /* Changes background color on hover */
+  color: black; /* Changes text color to black on hover */
+}
+
+/* DropDown Menu */
+
+.dropDown {
+    /* lg:hidden block */
+    display: block;
+}
+.dropDownContent {
+    /* w-screen mt-5 flex flex-col items-center justify-center  */
+    width: 100vw; /* Equivalent to w-screen */
+    margin-top: 1.25rem; /* Equivalent to mt-5 (5 * 0.25rem) */
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Equivalent to flex-col */
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Centers items horizontally */
+}
+.dropDownItems {
+    /* text-[35px] hover:bg-[#ebebeb] */
+    font-size: 35px; /* Equivalent to text-[35px] */
+    transition: background-color 0.2s ease; /* Adds a smooth transition for the background color */
+}
+.dropDownItems:hover {
+    background-color: #ebebeb; /* Equivalent to hover:bg-[#ebebeb] */
+}
+
+@media (min-width: 1024px) {
+    .navbarLinksMainDiv {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+    .dropDown{
+        display: none;
+    }
+}
+@media (min-width: 640px) {
+    .btnDiv {
+        display: block;
+    }   
+}

@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+}
+
+
+.bgVideo {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/video7.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    place-items: center; /* Centers content both horizontally and vertically */
+    border-radius: 16px; /* Rounds corners with 2xl radius (16px) */
+    position: relative; /* Sets the element to be positioned relative to its normal flow */
+    width: auto;
+}
+
+@media (min-width: 768px) { /* Tailwind's md breakpoint */
+    .bgVideo {
+      height: 400px; /* Increases height for medium screens and above */
+    }
+  }
+  
+  @media (min-width: 1280px) { /* Tailwind's xl breakpoint */
+    .bgVideo {
+      height: 500px; /* Increases height for extra-large screens and above */
+    }
+  }
+
+
+.section {
+    max-width: 1440px;
+    margin: 40px auto 40px;
+}
