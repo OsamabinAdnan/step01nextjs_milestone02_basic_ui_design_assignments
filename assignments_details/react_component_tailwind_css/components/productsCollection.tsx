@@ -4,7 +4,7 @@
 import React from 'react'
 import { Product } from './Product-Section'
 import ProductCard from './ProductCard'
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel'
+import { Carousel, CarouselContent, CarouselItem } from './ui/carousel'
 
 export default function ProductsCollection({Products, IsCarousel}:{Products:Product[], IsCarousel:boolean}) {
     if (IsCarousel){

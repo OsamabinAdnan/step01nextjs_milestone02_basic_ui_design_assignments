@@ -13,7 +13,7 @@ interface ProductCardProps {
     isNew:boolean
 }
 
-export default function ProductCard({title,price,originalPrice,discount,rating,review, image, isNew}:ProductCardProps) {
+export default function ProductCard({title,price,originalPrice,rating,review, image}:ProductCardProps) {
   return (
     <Card className='group relative overflow-hidden '>
         <CardContent>

@@ -10,13 +10,13 @@ export default function HeroSection() {
         
         <div className='lg:w-auto w-max pr-[40px] border-r-2 pt-10'>
             <div className='flex flex-col justify-center lg:items-start gap-3 w-full '>
-              <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Women's Fashion <span className='inline-block'><ChevronRight className="size-3 text-black text-center"  /></span></Link>
-              <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Men's Fashion <span className='inline-block'><ChevronRight className="size-3 text-black text-center"  /></span></Link>
+              <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Women&apos;s Fashion <span className='inline-block'><ChevronRight className="size-3 text-black text-center"  /></span></Link>
+              <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Men&apos;s Fashion <span className='inline-block'><ChevronRight className="size-3 text-black text-center"  /></span></Link>
               <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Electronics </Link>
               <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Home & Life Style </Link>
               <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Medicine </Link>
               <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Sport and Outdoor </Link>
-              <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Baby's & Toys </Link>
+              <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Baby&apos;s & Toys </Link>
               <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Groceries & Pets </Link>
               <Link href={'/'} className='border-none shadow-none text-[18px] font-normal'>Health & Beauty </Link>
             </div>

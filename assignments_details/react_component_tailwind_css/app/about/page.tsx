@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import {Button} from '@/components/ui/button'
 import { CiDollar } from 'react-icons/ci'
 
-export default function about() {
+export default function About() {
 
     // For Slider
     const slides = [
